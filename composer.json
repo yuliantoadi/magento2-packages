@@ -12,10 +12,14 @@
 	        "vendor-dir": "app/code"
 	    },
     "require": {},
-  "autoload": {
-    "files": [ "registration.php" ],
-    "psr-4": {
-      "Icube\\UpgradeScript\\": ""
+	"extra":{
+	    "installer-paths":{
+	      "./app/code/": ["icube/upgrade-script"]
+	    },
+  	"autoload": {
+    	"files": [ "registration.php" ],
+    	"psr-4": {
+      	  	"Icube\\UpgradeScript\\": ""
     }
   }
 }
