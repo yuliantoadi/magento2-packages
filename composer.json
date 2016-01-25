@@ -1,0 +1,18 @@
+{
+    "name": "icube/upgrade-script",
+    "description": "icube upgrade script magento 2",
+    "authors": [
+        {
+            "name": "Yulianto Adi",
+            "email": "thinkyoel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Icube\\UpgradeScript\\": ""
+    }
+  }
+}
