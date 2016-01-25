@@ -1,6 +1,7 @@
 {
     "name": "icube/upgrade-script",
     "description": "icube upgrade script magento 2",
+	"type": "magento-module",
     "authors": [
         {
             "name": "Yulianto Adi",
@@ -12,10 +13,6 @@
 	        "vendor-dir": "app/code"
 	    },
     "require": {},
-	"extra":{
-	    "installer-paths":{
-	      "./app/code/": ["icube/upgrade-script"]
-	    },
   	"autoload": {
     	"files": [ "registration.php" ],
     	"psr-4": {
