@@ -8,6 +8,9 @@
         }
     ],
     "minimum-stability": "dev",
+	"config": {
+	        "vendor-dir": "app/code"
+	    },
     "require": {},
   "autoload": {
     "files": [ "registration.php" ],
